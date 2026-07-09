@@ -1,0 +1,17 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local data exports can be large or sensitive.
+data/raw/
+data/interim/
+outputs/*.html
+outputs/*.png
+outputs/*.csv
+
+# Keep the sample schema file tracked.
+!data/sample_jatim_indicators.csv
+!data/README.md
+!outputs/.gitkeep
+!assets/screenshots/.gitkeep
